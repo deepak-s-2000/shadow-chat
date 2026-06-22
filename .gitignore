@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# runtime data
+*.db
+vector_store/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# IDE & local tooling
+.vscode/
+.idea/
+.claude/
+
+# Continue.dev local config (keep mcpServers yaml but not secrets)
+.continue/
